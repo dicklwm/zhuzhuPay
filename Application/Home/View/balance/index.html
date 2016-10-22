@@ -1,0 +1,83 @@
+<include file = "Public:header"/>
+<link rel = "stylesheet" href = "__PUBLIC__/css/table.css">
+<title>balance</title>
+<style>
+    .cost { background-color: #FF9999 !important; }
+
+    .income { background-color:#CCFF66 !important; }
+</style>
+<include file = "Public:top-nav"/>
+
+<div class = "container">
+    <div class = "container text-center">
+        <h2>Your Balance</h2>
+        <h3><i class = "fa fa-dollar"><b>{$balance}</b></i></h3>
+    </div>
+
+    <div class = "row">
+        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class = "panel panel-primary">
+                <div class = "panel-heading">
+                    <h3 class = "panel-title">All Money</h3>
+                </div>
+                <div class = "panel-body table-panel-need-loading">
+                    <div class = "table-responsive">
+                            <table class = "table table-hover table-bordered table-striped">
+                                <thead>
+                                <tr>
+                                    <th>What</th>
+                                    <th>How Much</th>
+                                    <th>When</th>
+                                    <th>category</th>
+                                </tr>
+                                </thead>
+                                <tbody id = "MinTableBody">
+                                    <foreach name="data" item="vo" >
+                                        <tr class="{$vo['classification']=='cost'?'cost':'income'}">
+                                            <td>{$vo.whatName}</td>
+                                            <td>{$vo.Money}</td>
+                                            <td>{$vo.When}</td>
+                                            <td>{$vo.classification}</td>
+                                        </tr>
+                                    </foreach>
+                                </tbody>
+                            </table>
+
+                        <nav class = "text-center">
+                            <ul class = "pagination" id = "table-pagination" data-cur-page = "1">
+                            </ul>
+                        </nav>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="loading">
+    <img src = "__PUBLIC__/images/longmao0.png">
+</div>
+
+<include file = "Public:bottom-nav"/>
+<script>
+    var PUBLIC = "__PUBLIC__";
+</script>
+<script src = "__PUBLIC__/js/TableDataAndPage.js"></script>
+<script>
+    $(function () {
+        $('.balance-li').addClass('active');
+        //有多少页  
+        var count = {$count};
+        //一页多少记录
+        var page = {$page};
+        var url = "{:U('Balance/getAllMoney','','')}";
+        RenderPage(count,page, url, true);
+
+//        $('#table-pagination').find('li:eq(1)').trigger('click');
+    });
+
+</script>
+
+<include file = "Public:footer"/>

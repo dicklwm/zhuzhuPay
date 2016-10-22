@@ -1,0 +1,137 @@
+<include file="Public:header"/>
+<title>cost</title>
+<link rel = "stylesheet" href = "__PUBLIC__/css/table.css">
+<link rel="stylesheet" href="__PUBLIC__/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="__PUBLIC__/css/MinDropdown.min.css">
+<include file="Public:top-nav"/>
+
+<div class="container">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="btn-group text-center" style="margin:10px 0;">
+      <button type="button" class="btn btn-primary">Day</button>
+      <button type="button" class="btn btn-primary">Week</button>
+      <button type="button" class="btn btn-primary">Month</button>
+      <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-cog
+"></i>Setting
+      </button>
+    </div>
+
+    <div class="row">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">New Cost</h3>
+        </div>
+        <div class="panel-body">
+
+          <form role="form" action="{:U('cost/savaData')}" method="post">
+            <div class="form-group">
+              <label for="what">What：</label>
+              <div id="what"></div>
+            </div>
+            <div class="form-group">
+              <label for="money">How Much：</label>
+              <input type="number" class="form-control" id="money" placeholder="How Much"
+                     name="money">
+            </div>
+
+            <div class="input-append date form_datetime form-group">
+              <label for="date">When：</label>
+              <input type="text" value="" id="date" class="form-control" readonly name="date">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <button type="submit" class="btn btn-success form-control">Submit</button>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <button type="reset" class="btn btn-danger form-control">Rewrite</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">All Your Costs</h3>
+        </div>
+        <div class="panel-body">
+
+          <div class="table-responsive">
+            <table class="table table-hover table-bordered table-striped">
+              <thead>
+              <tr>
+                <th>What</th>
+                <th>How Much</th>
+                <th>When</th>
+              </tr>
+              </thead>
+              <tbody id="MinTableBody">
+              <foreach name="data" item="vo">
+                <tr>
+                  <td>{$vo.whatName}</td>
+                  <td>{$vo.Money}</td>
+                  <td>{$vo.When}</td>
+                </tr>
+              </foreach>
+              </tbody>
+            </table>
+          </div>
+
+          <nav class="text-center">
+            <ul class="pagination" id="table-pagination" data-cur-page="1">
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<div class="loading">
+  <img src="__PUBLIC__/images/longmao0.png">
+</div>
+
+<include file="Public:bottom-nav"/>
+
+<script src="__PUBLIC__/js/bootstrap-datetimepicker.min.js"></script>
+<script src="__PUBLIC__/js/MinDropdown.min.js"></script>
+<script>
+  var PUBLIC='__PUBLIC__';
+</script>
+<script src="__PUBLIC__/js/TableDataAndPage.js"></script>
+<script>
+  $(function () {
+    $('.cost-li').addClass('active');
+    $('#date').datetimepicker({
+      format: "yyyy-mm-dd",
+      language: 'en',
+      autoclose: true,
+      todayBtn: true,
+      startDate: "2016-01-01",
+      todayHighlight: true,
+      minView: 2,
+      maxView: 2
+    });
+    //设置默认日期为当前日
+    $('#date').datetimepicker('setDate', new Date());
+
+    $('#what').MinDropdown({
+      name: "what",
+      placeholder: "Choose What You Cost Way"
+    });
+    //收入下拉，加载后台的
+    $('#what').data('MinDropdown').setData({$class});
+    //有多少页
+    var count={$count};
+    //一页多少记录
+    var page={$page};
+    var url="{:U('cost/getCostData','','')}";
+    RenderPage(count, page, url);
+  });
+</script>
+
+<include file="Public:footer"/>

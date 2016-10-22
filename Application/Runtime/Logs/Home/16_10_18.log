@@ -1,0 +1,60 @@
+[ 2016-10-18T20:53:41+08:00 ] ::1 /zhuzhupay/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003716s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.720107s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.720226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.080087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.080206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.077516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.077626s ]
+
+[ 2016-10-18T20:54:13+08:00 ] ::1 /zhuzhupay/Home/balance/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004582s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\MyPHPWorks\zhuzhuPay\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_balance` [ RunTime:0.093221s ]
+SQL: SELECT * FROM `tb_balance`  [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `tb_incomeandcost` [ RunTime:0.078508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_incomeandcost` LIMIT 1   [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2016-10-18T20:54:18+08:00 ] ::1 /zhuzhuPay/index.php/Home/Balance/getAllMoney?curPage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002420s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\MyPHPWorks\zhuzhuPay\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_incomeandcost` [ RunTime:0.014162s ]
+SQL: SELECT * FROM `tb_incomeandcost` ORDER BY systemTimeStamp LIMIT 0,10   [ RunTime:0.045631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002027s ]
+

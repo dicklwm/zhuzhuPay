@@ -1,0 +1,132 @@
+[ 2016-10-05T00:44:56+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002106s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048059s ]
+
+[ 2016-10-05T00:45:18+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2016-10-05T00:45:50+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2016-10-05T00:46:59+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2016-10-05T00:48:01+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001962s ]
+
+[ 2016-10-05T00:48:09+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003873s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2016-10-05T00:49:37+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2016-10-05T00:50:44+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2016-10-05T00:50:59+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2016-10-05T00:51:01+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2016-10-05T00:51:03+08:00 ] ::1 /zhuzhuPay/index.php/Home/Index/out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\MyPHPWorks\zhuzhuPay\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001966s ]
+

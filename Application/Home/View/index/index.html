@@ -1,0 +1,34 @@
+<include file = "Public:header"/>
+<title>Index</title>
+<include file = "Public:top-nav"/>
+
+<article>
+    <div class = "container">
+        <div class = "jumbotron">
+            <div class = "container text-center">
+                <h1>{:date('Y-m-d')}</h1>
+                <br>
+                <p>{$saySomething}</p>
+
+                <p><i class = "glyphicon glyphicon-heart"></i><span>By Your Honey</span></p>
+                <p>
+                    <a class = "btn btn-primary btn-lg"><i class = "glyphicon glyphicon-heart"></i></a>
+                </p>
+                <hr>
+                <p><small>Lately Income：</small><span>{$LatelyIncome}</span></p>
+                <p><small>Lately Cost：</small><span>{$LatelyCost}</span></p>
+                <p><small>Balance：</small><span>{$balance}</span></p>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<include file = "Public:bottom-nav"/>
+<script>
+    $(function () {
+        $('.home-li').addClass('active');
+    });
+</script>
+
+<include file = "Public:footer"/>
