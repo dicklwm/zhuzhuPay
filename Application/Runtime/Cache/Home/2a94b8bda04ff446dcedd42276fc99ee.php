@@ -4,10 +4,10 @@
     <meta charset = "UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
-    <link rel = "stylesheet" href = "/zhuzhuPay/Public/css/normalize.css">
-    <link rel = "stylesheet" href = "/zhuzhuPay/Public/css/bootstrap.css">
-    <link rel = "stylesheet" href = "/zhuzhuPay/Public/css/font-awesome.min.css">
-    <link rel = "stylesheet" href = "/zhuzhuPay/Public/css/app.css">
+    <link rel = "stylesheet" href = "/zhuzhupay/Public/css/normalize.css">
+    <link rel = "stylesheet" href = "/zhuzhupay/Public/css/bootstrap.css">
+    <link rel = "stylesheet" href = "/zhuzhupay/Public/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "/zhuzhupay/Public/css/app.css">
 <title>Index</title>
 </head>
 <body>
@@ -74,8 +74,8 @@
     </div>
 </footer>
 
-<script src = "/zhuzhuPay/Public/js/jquery.min.js"></script>
-<script src = "/zhuzhuPay/Public/js/bootstrap.min.js"></script>
+<script src = "/zhuzhupay/Public/js/jquery.min.js"></script>
+<script src = "/zhuzhupay/Public/js/bootstrap.min.js"></script>
 <script>
     $(function () {
         $('.home-li').addClass('active');

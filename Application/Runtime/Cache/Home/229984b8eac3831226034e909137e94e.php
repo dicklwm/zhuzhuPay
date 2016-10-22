@@ -4,13 +4,13 @@
     <meta charset = "UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
-    <link rel = "stylesheet" href = "/zhuzhuPay/Public/css/normalize.css">
-    <link rel = "stylesheet" href = "/zhuzhuPay/Public/css/bootstrap.css">
-    <link rel = "stylesheet" href = "/zhuzhuPay/Public/css/font-awesome.min.css">
-    <link rel = "stylesheet" href = "/zhuzhuPay/Public/css/app.css">
-<link rel = "stylesheet" href = "/zhuzhuPay/Public/css/table.css">
-<link rel="stylesheet" href="/zhuzhuPay/Public/css/bootstrap-datetimepicker.min.css">
-<link rel="stylesheet" href="/zhuzhuPay/Public/css/MinDropdown.min.css">
+    <link rel = "stylesheet" href = "/zhuzhupay/Public/css/normalize.css">
+    <link rel = "stylesheet" href = "/zhuzhupay/Public/css/bootstrap.css">
+    <link rel = "stylesheet" href = "/zhuzhupay/Public/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "/zhuzhupay/Public/css/app.css">
+<link rel = "stylesheet" href = "/zhuzhupay/Public/css/table.css">
+<link rel="stylesheet" href="/zhuzhupay/Public/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="/zhuzhupay/Public/css/MinDropdown.min.css">
 <title>Income</title>
 </head>
 <body>
@@ -134,7 +134,7 @@
 
 </div>
 <div class="loading">
-  <img src = "/zhuzhuPay/Public/images/longmao0.png">
+  <img src = "/zhuzhupay/Public/images/longmao0.png">
 </div>
 
 <div class = "bottom-nav-bug"></div>
@@ -148,15 +148,15 @@
     </div>
 </footer>
 
-<script src = "/zhuzhuPay/Public/js/jquery.min.js"></script>
-<script src = "/zhuzhuPay/Public/js/bootstrap.min.js"></script>
+<script src = "/zhuzhupay/Public/js/jquery.min.js"></script>
+<script src = "/zhuzhupay/Public/js/bootstrap.min.js"></script>
 
-<script src="/zhuzhuPay/Public/js/bootstrap-datetimepicker.min.js"></script>
-<script src="/zhuzhuPay/Public/js/MinDropdown.min.js"></script>
+<script src="/zhuzhupay/Public/js/bootstrap-datetimepicker.min.js"></script>
+<script src="/zhuzhupay/Public/js/MinDropdown.min.js"></script>
 <script>
-  var PUBLIC = '/zhuzhuPay/Public';
+  var PUBLIC = '/zhuzhupay/Public';
 </script>
-<script src="/zhuzhuPay/Public/js/TableDataAndPage.js"></script>
+<script src="/zhuzhupay/Public/js/TableDataAndPage.js"></script>
 <script>
   $(function () {
 

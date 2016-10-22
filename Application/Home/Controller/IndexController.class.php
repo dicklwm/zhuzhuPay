@@ -9,9 +9,15 @@ class IndexController extends Controller {
 
         $order = mt_rand(0, M('saysomething')->count());
 
-        $saySomething = M('saysomething')->where("id='%d'",$order)->select()[0]['name'];
+        $saySomethingModel = M('saysomething');
+		$saySomething = '';
+		if($saySomethingModel->count()>0){
+			$saySomething = $saySomethingModel->where("id='%d'",$order)->select();
+			$saySomething = $saySomething[0]['name'];
+		}
 
-        $balance = M('balance')->select()[0]['balance'];
+        $balance = M('balance')->select();
+		$balance = $balance[0]['balance'];
 
         $this->assign('LatelyIncome',$LatelyIncome);
         $this->assign('LatelyCost',$LatelyCost);

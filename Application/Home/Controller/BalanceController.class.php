@@ -13,7 +13,8 @@ use Think\Controller;
 class BalanceController extends Controller {
     public function index() {
 
-        $balance = M('balance')->select()[0]['balance'];
+        $balance = M('balance')->select();
+		$balance = $balance[0]['balance'];
         $data = M('incomeandcost')->order('systemTimeStamp desc')->page(1, 10)->select();
         $count = M('incomeandcost')->count();
         $this->assign('data',$data);
