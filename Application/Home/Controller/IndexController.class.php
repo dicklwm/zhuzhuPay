@@ -4,7 +4,7 @@ use Think\Controller;
 class IndexController extends Controller {
     public function index(){
 
-        $LatelyIncome = M('incomeandcost')->where("classification='income'")->order('systemTimeStamp desc')->page(1, 10)->sum('Money');
+//        $LatelyIncome = M('incomeandcost')->where("classification='income'")->order('systemTimeStamp desc')->page(1, 10)->sum('Money');
         $LatelyCost = M('incomeandcost')->where("classification='cost'")->order('systemTimeStamp desc')->page(1, 10)->sum('Money');
 
         $order = mt_rand(0, M('saysomething')->count());
